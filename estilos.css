@@ -1,0 +1,73 @@
+/* CSS DOCUMENT */
+@charset "UTF-8"; 
+
+@font-face {
+    font-family: "raleway";
+    src: url(Fuentes/Raleway-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+
+    /*aca empiezan las aplicaciones*/
+}
+@font-face {
+    font-family: raleway italic;
+    src: url(Fuentes/Raleway-Italic.ttf) format(truetype);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: raleway bold;
+    src: url(Fuentes/Raleway-Bold.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: faustina;
+    src: url(Fuentes/Faustina-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'raleway bold', sans serif;
+    }
+
+h2 {
+    font-family: 'raleway italic', sans serif;
+    color: rgb(187, 162, 210);
+}
+
+h4 {
+    font-family: 'raleway', sans serif;
+}
+
+h3 {
+    font-family: 'raleway', sans serif;
+    color: rgb(187, 162, 210);
+}
+
+p {
+  font-family: 'faustina', serif;
+  font-size: 18px;
+  list-style: none;
+}
+p{
+    font-size: 1rem;
+    font-family: 'faustina', serif;
+    font-size: 1rem;
+    text-wrap-style: balance;
+}
+body{
+    background-color: #fff9ec;
+}
+
+#hero{
+    background-image: url(img/Tramita.webp);
+    background-position: center;
+    background-size: cover;
+}
+footer{
+    background: linear-gradient(45deg, #fff9ec, #dba0f2);
+}
