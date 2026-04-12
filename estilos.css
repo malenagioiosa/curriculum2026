@@ -64,10 +64,115 @@ body{
 }
 
 #hero{
-    background-image: url(img/Tramita.webp);
+    background-image: url(img/Trama\ marmol.jpeg);
     background-position: center;
     background-size: cover;
+    height: 150px;
+    border: 5px solid rgb(187, 162, 210);
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-style: solid;
+    border-color: #dba0f2;
 }
 footer{
     background: linear-gradient(45deg, #fff9ec, #dba0f2);
+    padding-left: 35px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    width: 100%;
+    background-color: fff9ec ;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.flex-item-1 {
+flex: 1 1 100%;
+max-width: 100%;
+min-height: 250px;
+text-align:center;
+padding: 40px;
+border: 3px solid #dba0f2;
+align-self: flex-start;
+height: 200px;
+width: 30px;
+box-sizing: border-box;
+}
+
+.flex-item-2 {
+flex: 1 1 300px;
+max-width: 30%;
+min-height: 280px;
+text-align:center;
+padding: 20px;
+border: 3px solid #dba0f2;
+height: 200px;
+width: 40px;
+box-sizing: border-box;
+}
+
+.flex-item-3{
+flex: 1 1 300px;
+max-width: 30%;
+min-height: 280px;
+text-align:center;
+padding: 20px;
+border: 3px solid #dba0f2;
+height: 200px;
+width: 40px;
+box-sizing: border-box;
+}
+
+.flex-item-4{
+flex: 1 1 300px;
+max-width: 30%;
+min-height: 280px;
+text-align:center;
+padding: 20px;
+border: 3px solid #dba0f2;
+height: 200px;
+width: 40px;
+box-sizing: border-box;
+}
+
+.flex-item-1{
+    margin-right: 20px;
+    flex-grow: 1;
+    flex-basis: 3;
+    width: 435px;
+}
+
+.flex-item-2{
+    margin-right: 20px;
+    flex-grow: 1;
+    flex-basis: 3;
+    width: 435px;
+}
+
+.flex-item-3{
+    margin-right: 20px;
+    flex-grow: 1;
+    flex-basis: 3;
+    width: 435px;
+}
+
+.flex-item-4{
+    margin-right: 20px;
+    flex-grow: 1;
+    flex-basis: 3;
+    width: 435px;
 }
