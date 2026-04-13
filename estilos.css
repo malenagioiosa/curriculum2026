@@ -63,8 +63,16 @@ body{
     background-color: #fff9ec;
 }
 
+header{
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    padding: 20px
+}
+
 #hero{
-    background-image: url(img/Trama\ marmol.jpeg);
+    background-image: url(img/Trama.jpeg);
     background-position: center;
     background-size: cover;
     height: 150px;
@@ -175,4 +183,64 @@ box-sizing: border-box;
     flex-grow: 1;
     flex-basis: 3;
     width: 435px;
+}
+
+.flex-container-2{
+    width: 100%;
+    background-color: fff9ec ;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.flex-item-5{
+flex: 1 1 300px;
+max-width: 30%;
+min-height: 300px;
+text-align:center;
+padding: 20px;
+border: 3px solid #dba0f2;
+height: 200px;
+width: 40px;
+box-sizing: border-box;
+margin-right: 20px;
+flex-grow: 1;
+flex-basis: 3;
+width: 435px;
+}
+
+.flex-item-6{
+    flex: 1 1 300px;
+max-width: 30%;
+min-height: 300px;
+text-align:center;
+padding: 20px;
+border: 3px solid #dba0f2;
+height: 200px;
+width: 40px;
+box-sizing: border-box;
+margin-right: 20px;
+flex-grow: 1;
+flex-basis: 3;
+width: 435px;
+}
+
+.flex-item-7{
+flex: 1 1 300px;
+max-width: 30%;
+min-height: 300px;
+text-align:center;
+padding: 20px;
+border: 3px solid #dba0f2;
+height: 200px;
+width: 40px;
+box-sizing: border-box;
+margin-right: 20px;
+flex-grow: 1;
+flex-basis: 3;
+width: 435px; 
 }
