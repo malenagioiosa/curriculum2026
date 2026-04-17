@@ -71,7 +71,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(img/Trama.jpeg);
+    background-image: url(img/trama.jpeg);
     background-position: center;
     background-size: cover;
     height: 150px;
