@@ -81,8 +81,9 @@ header{
 
 footer{
     background: linear-gradient(45deg, #fff9ec, #dba0f2);
-    min-height: 200px;
+    min-height: 150px;
     padding: 35px;
+    text-align: center;
 }
 body{
     margin: 0;
