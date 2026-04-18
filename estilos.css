@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: "raleway";
-    src: url(Fuentes/Raleway-Regular.ttf) format(truetype);
+    src: url(fuentes/raleway-regular.ttf) format(truetype);
     font-weight: normal;
     font-style: normal;
 
@@ -11,27 +11,28 @@
 }
 @font-face {
     font-family: raleway italic;
-    src: url(Fuentes/Raleway-Italic.ttf) format(truetype);
+    src: url(fuentes/raleway-italic.ttf) format(truetype);
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: raleway bold;
-    src: url(Fuentes/Raleway-Bold.ttf) format(truetype);
+    src: url(fuentes/raleway-bold.ttf) format(truetype);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: faustina;
-    src: url(Fuentes/Faustina-Regular.ttf) format(truetype);
+    src: url(fuentes/faustina-regular.ttf) format(truetype);
     font-weight: normal;
     font-style: normal;
 }
 
 h1 {
     font-family: 'raleway bold', sans serif;
+    color: rgb(140, 74, 202);
     }
 
 h2 {
@@ -50,11 +51,9 @@ h3 {
 
 p {
   font-family: 'faustina', serif;
-  font-size: 18px;
   list-style: none;
 }
 p{
-    font-size: 1rem;
     font-family: 'faustina', serif;
     font-size: 1rem;
     text-wrap-style: balance;
@@ -78,12 +77,12 @@ header{
     border: 5px solid rgb(187, 162, 210);
     box-sizing: border-box;
     text-align: center;
-
-
 }
+
 footer{
     background: linear-gradient(45deg, #fff9ec, #dba0f2);
-    padding-left: 35px;
+    min-height: 200px;
+    padding: 35px;
 }
 body{
     margin: 0;
@@ -96,9 +95,6 @@ body{
     gap: 20px;
     padding: 20px;
     justify-content: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    box-sizing: border-box;
 }
 
 .flex-item-sobre-mi {
@@ -122,4 +118,12 @@ body{
     border: 3px solid #dba0f2;
     box-sizing: border-box;
     background-color: #fff9ec;
+}
+
+.flex-foto{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    padding: 50px;
+    gap: 20px;
 }
