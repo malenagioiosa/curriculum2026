@@ -2,129 +2,172 @@
 @charset "UTF-8"; 
 
 @font-face {
-    font-family: "raleway";
-    src: url(fuentes/raleway-regular.ttf) format(truetype);
-    font-weight: normal;
-    font-style: normal;
-
-    /*aca empiezan las aplicaciones*/
-}
-@font-face {
-    font-family: raleway italic;
-    src: url(fuentes/raleway-italic.ttf) format(truetype);
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: raleway bold;
-    src: url(fuentes/raleway-bold.ttf) format(truetype);
+    font-family: Lactos;
+    src: url(fuentes/dxlactos-regular-free-personal-use.otf);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: faustina;
-    src: url(fuentes/faustina-regular.ttf) format(truetype);
+    font-family: lato;
+    src: url(fuentes/lato-regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
 
-h1 {
-    font-family: 'raleway bold', sans serif;
-    color: rgb(140, 74, 202);
-    }
+h1{
+    color: #FF8500;
+    text-align: left;
+    font-family: "Dx Lactos - Free Persoanl Use";
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin: 0 0 -15px 0px;
 
-h2 {
-    font-family: 'raleway italic', sans serif;
-    color: rgb(187, 162, 210);
 }
 
-h4 {
-    font-family: 'raleway', sans serif;
+h2{
+    color: #8FA0D8;
+    font-family: Lato;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 0 6px 0px;
 }
 
-h3 {
-    font-family: 'raleway', sans serif;
-    color: rgb(187, 162, 210);
+h3{
+    color: #8FA0D8;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 20 80px 0px;
 }
 
-p {
-  font-family: 'faustina', serif;
-  list-style: none;
-}
 p{
-    font-family: 'faustina', serif;
-    font-size: 1rem;
-    text-wrap-style: balance;
+    color: #171143;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px
 }
+
+h4{
+
+}
+
 body{
-    background-color: #fff9ec;
+    background-color: #F9DFC6;
 }
 
 header{
-    padding: 20px
+    display: flex;
+    padding: 0px;
+    background: #FF8500;
 }
 
-#hero{
+header nav{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url(img/trama.jpeg);
-    background-position: center;
-    background-size: cover;
-    height: 150px;
-    border: 5px solid rgb(187, 162, 210);
-    box-sizing: border-box;
-    text-align: center;
+    width: 1681px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+#botones{
+    display: flex;
+    align-items: center;
+    gap: 74px;
+    list-style: none;
+}
+
+#botones a{
+    color: #171143;
+    font-family: "lato",sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
 }
 
 footer{
-    background: linear-gradient(45deg, #fff9ec, #dba0f2);
-    min-height: 150px;
-    padding: 35px;
-    text-align: center;
+    display: flex;
+    height: 84px;
+    padding: 40px 8%;
+    align-items: center;
+    background: #FF8500;
+    justify-content: space-between;
+    box-sizing: border-box;
+    line-height: 2px;
+    color: #F9DFC6;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    }
+
+.footer-izquierdo{
+text-align: left;
+}
+
+.footer-medio{
+    text-transform: lowercase;
+    margin: 0 0 8px 0;
+    
 }
 body{
     margin: 0;
     padding: 0;
 }
 
-.flex-container {
+.presentacion{
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
+    flex-direction: column;
     justify-content: center;
+    align-items: flex-start; 
+    padding: 110px;
 }
 
-.flex-item-sobre-mi {
-    flex: 1 1 100%;
-    max-width: 100%;
-    min-height: 250px;
-    text-align:center;
-    padding: 40px;
-    border: 3px solid #dba0f2;
-    height: 200px;
-    width: 30px;
-    box-sizing: border-box;
-}
-
-.flex-item {
-    flex: 1 1 300px;
-    max-width: 31%;
-    min-height: 250px;
-    text-align:center;
-    padding: 25px;
-    border: 3px solid #dba0f2;
-    box-sizing: border-box;
-    background-color: #fff9ec;
-}
-
-.flex-foto{
-    display: flex;
-    flex-direction:column;
-    text-align: center;
-    padding: 50px;
+.malena{
+   display: inline-flex;
+    align-items: center;
     gap: 20px;
+    padding-left: 250px;
+}
+
+.male{
+    display: flex;
+width: 972px;
+flex-direction: column;
+align-items: flex-start;
+gap: 28px;
+}
+
+.estrella{
+    position: absolute;
+      bottom: -710px;
+      left: 10px;
+      font-size: 32px;
+      user-select: none;
+}
+
+.estrellacelest{
+    position: absolute;
+      bottom: -130px;
+      left: 0px;
+      font-size: 32px;
+      user-select: none;
+}
+
+.boton-male{
+    color: #8FA0D8;
+    font-family: "Dx Lactos - Free Persoanl Use";
+    font-size: 95px;
+    font-style: normal;
+    line-height: normal;
+    width: 450px;
+    height: 361px;
 }
