@@ -23,7 +23,7 @@ h1{
     font-style: normal;
     font-weight: 200;
     line-height: normal;
-    margin: 0 0 -15px 0px;
+    margin: 0 0 15px 0px;
 
 }
 
@@ -54,10 +54,6 @@ p{
     font-style: normal;
     font-weight: 700;
     line-height: 28px
-}
-
-h4{
-
 }
 
 body{
@@ -97,7 +93,7 @@ header nav{
 footer{
     display: flex;
     height: 84px;
-    padding: 40px 8%;
+    padding: 40px 58px;
     align-items: center;
     background: #FF8500;
     justify-content: space-between;
@@ -107,6 +103,7 @@ footer{
     font-family: Lato;
     font-size: 14px;
     font-style: normal;
+    gap: 100px;
     }
 
 .footer-izquierdo{
@@ -115,12 +112,21 @@ text-align: left;
 
 .footer-medio{
     text-transform: lowercase;
-    margin: 0 0 8px 0;
+    margin: 0px 0px 8px 0px;
     
 }
-body{
-    margin: 0;
-    padding: 0;
+
+.footer p{
+    color: #F9DFC6;
+    font-family: Lato;
+    font-size: 8px;
+    font-style: normal;
+    gap: 50px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
 .presentacion{
@@ -185,7 +191,7 @@ body{
     width: 250px;
     height: 120px;
     text-decoration: none;
-    margin: 0;
+    margin: 0px;
 }
 
 .proyec{
@@ -195,8 +201,8 @@ body{
     align-items: flex-start;
     padding: 200px;
     padding-left:310px;
-    line-height: 0;
-    margin: 0;
+    line-height: 0px;
+    margin: 0px;
 }
 
 .dest{
@@ -208,8 +214,8 @@ body{
     font-weight: 600;
     line-height: normal;
     padding-left: 240px;
-    margin: 0;
-    padding-bottom: 0;
+    margin: 0px;
+    padding-bottom: 0px;
 }
 
 .destacado{
@@ -220,17 +226,27 @@ body{
     padding-left: 240px;
 }
 
-h8{
+h5{
     color: #F9DFC6;
     font-family: Lato;
     font-size: 17px;
     font-style: normal;
     font-weight: 200;
-    line-height: 0px
+    line-height: 0px;
+    gap: 80px;
+}
+
+.au{
+    color: #FF8500;
+    font-family: "DX Lactos - Free Persoanl Use";
+    font-size: 24px;
+    font-size: normal;
+    font-weight: 90;
+    line-height: 0px;
 }
 
 .trabajamos-juntos{
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     align-items: flex-start;
     gap: 111px;
@@ -286,7 +302,7 @@ h8{
 .email{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
 }
 
 .apellido input, .email input, .idea textarea {
@@ -340,7 +356,7 @@ h8{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: -310px; 
+    height: 80vh;
 }
 
 .sobre-mi{
@@ -350,11 +366,11 @@ h8{
     gap: 50;
     max-width: 1100px;
     margin: 50px;
-    padding: 0 20px;
+    padding: 0px 20px; 
 }
 
 .imagen{
-    width: 320px;
+    width: 453px;
     height: auto;
 }
 
@@ -365,8 +381,8 @@ h8{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: 0 0 15px 0;
-    padding-left: 200px;
+    margin: 0px 0px 15px 0px;
+    padding-left: 60px;
 }
 
 .contenedor-medio{
@@ -376,23 +392,14 @@ h8{
     align-items: flex-start;
     max-width: 1100px;
     margin: 60px;
-    padding: 0 20px;
+    padding: 0px 20px;
     gap: 50px;
 }
 
 .audio, .programas{
     display: flex;
     flex-direction: column;
-    gap: 12px;
-}
-
-h5{
-    color: #FF8500;
-    font-family: "Dx Lactos - Free Persoanl Use";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 90;
-    line-height: 0px;
+    gap: 30px;
 }
 
 .flex-container{
@@ -402,7 +409,7 @@ h5{
     gap: 25px;
     max-width: 1100px;
     margin: 60px;
-    padding: 0 20px;
+    padding: 0px 20px;
 }
 
 .flex-item{
@@ -434,3 +441,6 @@ h7{
     line-height: normal;
 }
 
+a{
+    text-decoration: none;
+}
